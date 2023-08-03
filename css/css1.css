@@ -1,0 +1,316 @@
+.topnav {
+
+  border: none;
+  width: 100%;
+  position: relative;
+  background-color: #263C56;
+  display: flex;
+  overflow: hidden;
+
+}
+/* Style the links inside the navbar */
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  font-family: 'Hind Siliguri';
+  font-style: normal;
+  text-align: center;
+
+  padding: 15px 17px ;
+  text-decoration: none;
+  font-size: 18px;
+
+  text-shadow: 0px 4px 4px #000000;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.topnav button:hover {
+  background-color: ddd;
+  color: rgb(5, 18, 63);
+}
+
+
+
+.searchBar {
+  margin-top: 2px;
+  margin-left: 40%;
+  position: absolute;
+  width: 100%;
+  max-width: 270px;
+  background-color: #ffff;
+  display: flex;
+  border-radius: 70px;
+  text-align: center;
+  padding: 10px 20px;
+  bottom: 2.5px;
+
+}
+
+
+.searchBar input {
+  flex: 1;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.searchBar button {
+  background: transparent;
+  border: none;
+}
+.B {
+  margin-left: 45%;
+
+}
+
+.cardescription{
+  float: left;
+  border: black;
+  border-style: solid;
+  width: 30%;
+  height: 700px;
+  border-left: 0px;
+  border-bottom: 0px;
+}
+
+.car_middle_desp{
+
+  width: 39%;
+  height: 700px;
+  margin: auto;
+  float: left;
+  border: black;
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  }
+
+.car_right_similar{
+  float: left;
+  border: black;
+  border-style: solid;
+  width: 30.65%;
+  height: 700px;
+  border-right: 0px;
+  border-bottom: 0px;
+
+}
+.main_left_desp{
+  height: 100%;
+  width: 100%;
+}
+
+.img_div{
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  height: 300px;
+  width: 350px;
+
+}
+
+.small_desp{
+  position: absolute;
+  top: 410px;
+  left: 40px;
+  width: 350px;
+  text-align: right;
+}
+.small_desp h3{
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+    position: absolute;
+    left: 244px;
+} 
+
+.similar_products{
+  border: black;
+  border-style: solid;
+  top: 118px;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 1056px;
+  width: 28%;
+  border-bottom-style: double;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin: 0px;
+}
+.similar_products p {
+  margin: 0px;
+  position: absolute;
+  top: -20px
+
+}
+
+.similar_car_main{
+  height: 500px;
+  width: 28%;
+  position: absolute;
+  right: 21px;
+  top: 139px;
+}
+
+.similar_car_1 {
+  height: 47%;
+  width: 46%;
+  position: absolute;
+  margin: 1%;
+}
+
+.similar_car_1:hover {
+  outline: 1px solid grey;
+  transition: 0.4s ease;
+  opacity: 1;
+  transform: scale(1.1);
+}
+.similar_car_2:hover {
+  outline: 1px solid grey;
+  transition: 0.4s ease;
+  opacity: 1;
+  transform: scale(1.1);
+}
+.similar_car_3:hover {
+  outline: 1px solid grey;
+  transition: 0.4s ease;
+  opacity: 1;
+  transform: scale(1.1);
+}
+.similar_car_4:hover {
+  outline: 1px solid grey;
+  transition: 0.4s ease;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.similar_car_main img {
+  height: 65%;
+  width: 100%;
+}
+.similar_car_2 {
+  height: 47%;
+  width: 46%;
+  position: absolute;
+  margin: 1%;
+  right: 1px;
+}
+.similar_car_3 {
+  height: 47%;
+  width: 46%;
+  position: absolute;
+  margin: 1%;
+  top: 251px;
+}
+.similar_car_4 {
+  height: 47%;
+  width: 46%;
+  position: absolute;
+  margin: 1%;
+  right: 1px;
+  top: 251px;
+}
+.similar_car_main p {
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  left: 72px;
+  position: absolute;
+}
+.similar_car_main a{
+   color: black;
+}
+.car_middle_desp p {
+  font-family: Inter,sans-serif;
+  font-weight: 400;
+
+}
+.description_middle{
+    position: absolute;
+    margin: 0px;
+    border: black;
+    border-bottom: double;
+    top: 130px;
+    height: auto;
+    left: 463px;
+    width: 36.6%;
+}
+.contact_owner{
+      position: absolute;
+    margin: 0px;
+    border: black;
+    border-bottom: double;
+    top: 540px;
+    height: auto;
+    left: 463px;
+    width: 36.6%;
+
+}
+.middledescription_middle{
+  height: 353px;
+  width: 541px;
+  position: absolute;
+  top: 170px;
+  left: 465px;
+  background-color: #F9F6F7;
+  border-radius: 10px;
+}
+
+.feature_item{
+  height: 10%;
+  font-family: Inter,sans-serif;
+  font-weight: 300;
+  position: relative;
+  top: 10px;
+
+}
+.label{
+  height: 100%;
+  width: 30%;
+  float: left;
+  text-align: center;
+  justify-content: center;
+}
+
+.label_desc{
+  height: 100%;
+  width: 70%;
+  float: right;
+}
+.owner_details{
+    height: 150px;
+    width: 541px;
+    position: absolute;
+    top: 578px;
+    left: 465px;
+    background-color: #F9F6F7;
+    border-radius: 10px;
+}
+.owner_item{
+    height: 20%;
+  font-family: Inter,sans-serif;
+  font-weight: 300;
+  position: relative;
+  top: 10px;
+
+}

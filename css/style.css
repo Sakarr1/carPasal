@@ -1,0 +1,601 @@
+.main-nav{
+  height:40px;
+  width:100%;
+  background:yellow;
+}
+
+.main-nav a{
+float: right;
+    text-decoration: none;
+    background: #676b6b;
+    padding: 5px;
+    color: white;
+    border-radius: 9px;
+    left: 1340px;
+    top: 14px;
+    position: absolute;
+}
+
+
+.main-nav a:hover {
+    background-color: ddd;
+  color: rgb(5, 18, 63);
+
+}
+
+
+
+
+/* Add a dark blue background color to the top nav */
+.topnav {
+
+  border: none;
+  width: 100%;
+  position: relative;
+  background-color: #263C56;
+  display: flex;
+  overflow: hidden;
+
+}
+
+/* Style the links inside the navbar */
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  font-family: 'Hind Siliguri';
+  font-style: normal;
+  text-align: center;
+
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 18px;
+
+  text-shadow: 0px 4px 4px #000000;
+
+text-decoration: none !important;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.topnav button:hover {
+  background-color: ddd;
+  color: #05123F;
+}
+
+
+
+
+
+.searchBar {
+     left: 629px;
+    top: 2px;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  max-width: 270px;
+  background-color: #ffff;
+  display: flex;
+  border-radius: 70px;
+  text-align: center;
+  padding: 10px 20px;
+
+}
+
+
+.searchBar input {
+  flex: 1;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.searchBar button {
+  background: transparent;
+  border: none;
+}
+
+
+.B {
+  margin-left: 45%;
+
+}
+
+.logo img{
+position: absolute;
+left: 652px;
+
+}
+
+
+.c1{
+  position: relative;
+  /* margin-top: ; */
+  width: 100%;
+  height: 100%;
+  background: #216abf;
+}
+
+.c1 text {
+     top: 65px;
+    left: 116px;
+    position: relative;
+    font-family: 'Karla';
+    font-style: normal;
+    font-size: 90px;
+    color: #101f31;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+
+}
+
+
+
+.c1 p {
+     margin: 0px;
+    left: 55px;
+    top: 76px;
+    position: relative;
+    font-family: 'Karla';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+
+.buyCarButton {
+ /* margin-top: 270px;
+  margin-left: 65px;*/
+  left: 45px;
+  top: 35%;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+
+  background: #F2DB09;
+  border-radius: 10px;
+}
+
+.buyCarButton a {
+
+  padding-left: 87px;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  font-family: 'Lalezar';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 90px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.buyCarButton a:hover {
+  background-color: rgb(208, 214, 129);
+  color: rgb(5, 18, 63);
+
+}
+
+.arrow {
+     width: 20px;
+    position: absolute;
+   left: 546px;
+    top: 25px;
+}
+
+.arrow img:hover{
+
+      width: 22px;
+
+}
+
+
+
+.sellCarButton {
+  /*margin-top: 400px;
+  margin-left: 65px;*/
+  left: 45px;
+  top: 50%;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+
+  background: #F2DB09;
+  border-radius: 10px;
+
+
+}
+
+.sellCarButton a {
+
+  padding-left: 87px;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  font-family: 'Lalezar';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 90px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+
+}
+
+.sellCarButton a:hover {
+  background-color: rgb(208, 214, 129);
+  color: rgb(5, 18, 63);
+}
+
+
+
+.dashboard {
+            border-radius: 12%;
+    top: 35px;
+    position: absolute;
+    border-style: solid;
+    border: 1px;
+    width: 662px;
+    height: 555px;
+    background-color: #304054;
+    left: 765px;
+        }
+
+
+
+
+.svg {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+ top: 395px;
+
+
+
+
+}
+
+.c2{
+  position: relative;
+  /* margin-top: ; */
+  width: 100%;
+  height: 100%;
+  background: #4F93E2;
+}
+
+.aboutUs {
+  position: relative;
+  /* margin-top:; */
+  width: 100%;
+  height: 100%;
+  background: #263C56;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.aboutUs h1 {
+      color: white;
+    font-size: 67px;
+    left: 539px;
+    position: absolute;
+
+}
+
+.aboutUs p{
+      position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 160px;
+    left: 25px;
+
+
+
+}
+
+
+
+.list { 
+color: white;
+}
+
+
+.list h2{
+position: absolute;
+top: 50%;
+left: 38%;
+align-self: center;
+}
+
+.column1 {
+ 
+     position: absolute;
+/*    background-color: #858484;*/
+    top: 60%;
+    left: 5%;
+
+}
+
+.column2{
+    position: absolute;
+/*    background-color: #858484;*/
+    top: 60%;
+   left: 30% ;
+
+}
+
+
+.column3 {
+    position: absolute;
+/*    background-color: #858484;*/
+    top: 60%;
+    left: 55%;
+
+
+}
+
+
+.column4 {
+
+  position: absolute;
+/*    background-color: #858484;*/
+    top: 60%;
+    left: 80%;
+
+
+}
+
+
+
+
+
+.b2 {
+
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.b2 button {
+
+  background: transparent;
+  position: absolute;
+  width: 90px;
+  height: 39px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 5px;
+
+  color: #FFFFFF;
+
+}
+
+
+.containerSec {
+  position: absolute;
+  /* margin-top: ; */
+  width: 100%;
+  height: 100%;
+  background: #4F93E2;
+}
+
+
+
+
+
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-item {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+}
+
+.shop-item img {
+  width: 100%;
+}
+
+.shop-item h3 {
+  margin-top: 10px;
+}
+
+.shop-item p {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.shop-item button {
+  margin-top: 0px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.bottom { 
+  text-align: center;
+background-color: yellow;
+
+
+}
+
+
+
+
+
+
+
+.getValuation {
+  top: 10px;
+  left: 20%;
+   padding: 50px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin: auto;
+    width: 50%;
+    position: absolute;
+  }
+
+  /* Form labels */
+  .getValuation label {
+    line-height: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  /* Input fields */
+  .getValuation input[type="text"], input[type="file"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* Submit button */
+  .getValuation input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+/*Banner*/
+.text{
+    padding:40px;
+    background:#eee;
+}
+.text h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding:10px;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+}
+ .banner{
+    position: relative;
+    background: linear-gradient(-55deg, #03a9f4 29%, #f3c858 29.1%, #efe950 68%, #03a9f468.1%);
+    border-radius: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px #0005;
+    overflow: hidden;
+    top: 0px;
+    width: 100%;
+}
+.car{
+    flex:1 1 250px;
+    padding:15px;
+    text-align: center;
+}
+ .car img{
+        position: relative;
+    right: 130px;
+    width: 70%;
+}
+.btn{
+  position: absolute;
+    display: block;
+    height:40px;
+    width:150px;
+    line-height: 40px;
+    background: #fff;
+    color:#1f1f1f;
+    margin:5px auto;
+    text-decoration: none;
+    left: 46px;
+}
+ .content{
+  left: 633px;
+    flex:1 1 250px;
+    text-align: center;
+    padding:10px;
+    text-transform: uppercase;
+    position: absolute;
+}
+ .content span{
+        color: #eee;
+    font-size: 25px;
+    position: absolute;
+    left: 105px;
+  }
+.content h3{
+    color:#fff;
+    font-size: 40px;
+}
+ .content p{
+    color:#eee;
+    font-size: 20px;
+    padding:10px 0;
+}
+.btn a:hover {
+  background-color: ddd;
+  color: #05123F;
+}
+.carb{
+       left: 17px;
+    position: relative;
+  }
+
+.banner-container .banner .carb img{
+   left: 10%;
+    width: 87%;
+    position: relative;
+}
+.contactUs {
+background-color: wheat;
+position: relative;
+height: 610px;
+width: 100%;
+}
+.contactUs p{
+      color: black;
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    font-size: 30px;
+}
+.contactUs h1{
+
+    left: 34%;
+    top: 20%;
+    position: absolute;
+    font-size: 45px;
+}
+.contactUsB {
+    background-color: #262b44;
+    width: 100%;
+    position: relative;
+    height: 39px;
+    top: 0px;
+  }
